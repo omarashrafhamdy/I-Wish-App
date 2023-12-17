@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="500.0" prefWidth="204.0" style="-fx-background-color: #CAD5DB;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="183.0" prefWidth="199.0">
+               <children>
+                  <ImageView fitHeight="115.0" fitWidth="176.0" layoutX="48.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@logo2.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="labelName" layoutX="52.0" layoutY="131.0" text="Omar Ashraf" textAlignment="CENTER" textFill="#0d2c51">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelBalance" layoutX="88.0" layoutY="158.0" text="5000" textAlignment="CENTER" textFill="#0d2c51">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="69.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@coin_217853.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Pane prefHeight="15.0" prefWidth="199.0" />
+            <HBox prefHeight="30.0" prefWidth="199.0">
+               <children>
+                  <Pane prefHeight="30.0" prefWidth="14.0" />
+                  <Button fx:id="btnWishlist" mnemonicParsing="false" prefHeight="30.0" prefWidth="176.0" style="-fx-background-color: #79a9e7; -fx-background-radius: 15;" text="Wishlist" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="14.0" prefWidth="204.0" />
+            <HBox prefHeight="30.0" prefWidth="199.0">
+               <children>
+                  <Pane prefHeight="30.0" prefWidth="14.0" />
+                  <Button fx:id="btnFriendlist" mnemonicParsing="false" prefHeight="30.0" prefWidth="176.0" style="-fx-background-color: #79a9e7; -fx-background-radius: 15;" text="Friendlist" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="14.0" prefWidth="204.0" />
+            <HBox prefHeight="30.0" prefWidth="199.0">
+               <children>
+                  <Pane prefHeight="30.0" prefWidth="14.0" />
+                  <Button fx:id="btnAddFriend" mnemonicParsing="false" prefHeight="30.0" prefWidth="176.0" style="-fx-background-color: #79a9e7; -fx-background-radius: 15;" text="Add friend / Request" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="14.0" prefWidth="204.0" />
+            <HBox prefHeight="30.0" prefWidth="199.0">
+               <children>
+                  <Pane prefHeight="30.0" prefWidth="14.0" />
+                  <Button fx:id="btnAddBalance" mnemonicParsing="false" prefHeight="30.0" prefWidth="176.0" style="-fx-background-color: #79a9e7; -fx-background-radius: 15;" text="Add Balance" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="14.0" prefWidth="204.0" />
+            <HBox prefHeight="30.0" prefWidth="199.0">
+               <children>
+                  <Pane prefHeight="30.0" prefWidth="14.0" />
+                  <Button fx:id="btnNotfication" mnemonicParsing="false" prefHeight="30.0" prefWidth="176.0" style="-fx-background-color: #79a9e7; -fx-background-radius: 15;" text="Notfication" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="33.0" prefWidth="204.0" />
+            <HBox prefHeight="30.0" prefWidth="199.0">
+               <children>
+                  <Pane prefHeight="30.0" prefWidth="64.0" />
+                  <Button fx:id="btnLogout" mnemonicParsing="false" prefHeight="42.0" prefWidth="79.0" style="-fx-background-color: #79a9e7; -fx-background-radius: 15;" text="Logout" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

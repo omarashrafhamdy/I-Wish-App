@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="596.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Label layoutX="251.0" layoutY="25.0" text="Wishlist" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TableView layoutX="18.0" layoutY="92.0" prefHeight="311.0" prefWidth="563.0">
+        <columns>
+            <TableColumn fx:id="image" prefWidth="102.0" text="Image" />
+            <TableColumn fx:id="item_name" prefWidth="102.0" text="Name" />
+            <TableColumn fx:id="price" prefWidth="102.0" text="Price" />
+            <TableColumn fx:id="reprice" prefWidth="102.0" text="Remaining Price" />
+            <TableColumn fx:id="cont" prefWidth="102.0" text="Contributers" />
+            <TableColumn fx:id="id" prefWidth="52.0" text="id" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAddItem" layoutX="33.0" layoutY="431.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="131.0" style="-fx-background-radius: 15; -fx-border-color: #79a9e7; -fx-border-radius: 15; -fx-background-color: transparent;" text="Add Item" textFill="#587ea9" />
+      <Button fx:id="btnUpdate" layoutX="233.0" layoutY="431.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="131.0" style="-fx-background-radius: 15; -fx-border-color: #79a9e7; -fx-border-radius: 15; -fx-background-color: transparent;" text="Update " textFill="#587ea9" />
+      <Button fx:id="btnDeleteItem" layoutX="435.0" layoutY="431.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="131.0" style="-fx-background-radius: 15; -fx-border-color: #79a9e7; -fx-border-radius: 15; -fx-background-color: transparent;" text="Delete Item" textFill="#587ea9" />
+   </children>
+</AnchorPane>

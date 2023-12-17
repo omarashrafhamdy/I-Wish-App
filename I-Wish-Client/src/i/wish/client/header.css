@@ -1,0 +1,30 @@
+.table-view .column-header{
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(to bottom, #79a9e7, #496d99);
+    
+
+}
+
+/*.table-column {
+    -fx-background-color: #ffffff;
+    -fx-alignment: CENTER;
+}*/
+
+.table-cell {
+    -fx-border-color: transparent transparent transparent transparent; /* Set border color to transparent for all sides */
+    -fx-border-width: 0 0 1 0; /* Apply bottom border to cells */
+}
+
+.table-view .column-header .label{
+  -fx-text-fill: #ffffff;
+}
+
+.table-row-cell:selected {
+    /* Change to the desired styles */
+    -fx-background-color: #e0e0e0; /* Background color when selected */
+}
+
+.table-row-cell:selected .text {
+    /* Change to the desired text color when selected */
+    -fx-fill: black;
+}

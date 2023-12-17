@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="I-Wish-Client.jnlp">
+  <information>
+    <title>I-Wish-Client</title>
+    <vendor>OMAR</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="I-Wish-Client.jar" size="4637788" download="eager" />
+    <jar href="lib\json-20231013.jar" size="74702" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="I-Wish-Client" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="i.wish.client.IWishClient"  name="I-Wish-Client" />
+  <update check="always"/>
+</jnlp>
