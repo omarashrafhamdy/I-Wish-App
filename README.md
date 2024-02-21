@@ -1,4 +1,6 @@
 # I-Wish-Project
+![logo2](https://github.com/omarashrafhamdy/I-Wish-App/assets/58981064/00fceabb-7c03-42b5-a65c-3b710c692d20)
+
 
 Our app is designed to simplify the process of creating wish lists and facilitating group contributions. users can create wish lists for any occasion and share them with their friends, who can then contribute towards fulfilling the wishes.
 
