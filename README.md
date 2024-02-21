@@ -1,12 +1,10 @@
 # I-Wish-Project
 ![logo2](https://github.com/omarashrafhamdy/I-Wish-App/assets/58981064/00fceabb-7c03-42b5-a65c-3b710c692d20)
 
-
-Our app is designed to simplify the process of creating wish lists and facilitating group contributions. users can create wish lists for any occasion and share them with their friends, who can then contribute towards fulfilling the wishes.
-
-i-wish makes the process of gift-giving fun and collaborative, reducing the stress of finding the perfect gift and making it easier for everyone to contribute towards a meaningful gift
+I-Wish is an interactive desktop application designed to enhance social connections by allowing users to effortlessly add friends, curate their own wish lists, and explore the desires of their friends. With the ability to contribute towards fulfilling items from their friends' wish lists, i-Wish transforms the act of gift-giving into a seamless and joyous experience for all involved.
 
 Architecture:
+
 The app has been designed with a three-tier architecture, with a presentation layer, a business logic layer, and a data storage layer. Also we have used models like : DAL(data access layer) -DTO(Data transfer object).
 
 🖥 Client-side:
