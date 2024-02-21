@@ -10,19 +10,20 @@ Architecture and GUI:
 
 The app has been designed with a three-tier architecture, with a presentation layer, a business logic layer, and a data storage layer. Also we have used models like : DAL(data access layer) -DTO(Data transfer object). The GUI has been developed using JavaFX using (Scene Builder Tool), and we have focused on creating a user-friendly interface that is intuitive to use.
 
-Technology used:
+🖥 Client-side:
+- Sign up or log in easily.
+- Manage your friend list.
+- Accept or decline friend requests.
+- Create, update, or delete your wish list.
+- View your friends and their wishes.
+- Contribute money towards friends' wish list items.
+- Get notified when a gift is bought.
 
-i-wish app has been developed using Java 8, with the Eclipse IDE as our development environment.
-
-Technology used:
-
-- Java
-
-- CSS
-
-- MYSQL
-
-- Additional tools (Photoshop - Illustrator)
+🌐 Server-side:
+- Control the server easily.
+- Efficiently manage the database.
+- Handle connections and requests seamlessly.
+- Notify participants when a gift is complete.
 
 Main Architecture :
 ![image](https://github.com/omarashrafhamdy/I-Wish-App/assets/58981064/aab7cdf4-b0b1-42e4-a0bb-d97e4382749c)
